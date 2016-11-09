@@ -23,6 +23,9 @@
         "classmap": [
             "tests/",
             "database/"
-        ]
+        ],
+        "psr-4": {
+            "Test\\": "tests/unit/src/Test"
+        }
     }
 }

@@ -29,6 +29,6 @@ class HelloWorldController extends Controller
     public function index()
     {
 
-        return response()->json(['I\'m Batman.']);
+        return response()->json('I\'m Batman.');
     }
 }
